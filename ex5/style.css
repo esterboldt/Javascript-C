@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(42,13,74);
+    background: linear-gradient(90deg, rgba(42,13,74,1) 5%, rgba(85,50,122,1) 89%);
+}
+
+.h1-titulo{
+    color:white;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    font-weight: 900;
+}
+
+.main{
+    color: white;
+    font-family: "Lato";
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    gap: 15px;
+}
+
+#show_text{
+    display: none
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.button-38 {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .7rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .2rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
